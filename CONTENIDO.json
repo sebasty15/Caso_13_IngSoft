@@ -1,0 +1,29 @@
+{
+  "project": "marina-avistamientos-completo",
+  "version": "1.0.0",
+  "notes": [
+    "Frontend and backend source included.",
+    "Do not run database/schema.sql on an existing database unless prepared to recreate its tables.",
+    "Copy .env.example files to .env and configure local credentials."
+  ],
+  "files": [
+    ".gitignore",
+    "README.md",
+    "backend/.env.example",
+    "backend/PRUEBAS_API.md",
+    "backend/package.json",
+    "backend/src/db.ts",
+    "backend/src/server.ts",
+    "backend/tsconfig.json",
+    "database/schema.sql",
+    "database/verificacion.sql",
+    "frontend/.env.example",
+    "frontend/index.html",
+    "frontend/package.json",
+    "frontend/src/App.tsx",
+    "frontend/src/main.tsx",
+    "frontend/src/styles.css",
+    "frontend/tsconfig.json",
+    "frontend/vite.config.ts"
+  ]
+}
